@@ -46,6 +46,14 @@
                 border: none;
                 cursor: pointer;
             }
+            label{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #7b96ec;
+                font-size: 12px;
+                cursor: pointer;
+            }
         }
         p{
             color: #5d5b85;
