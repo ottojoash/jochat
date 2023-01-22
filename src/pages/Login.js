@@ -8,17 +8,11 @@ const Login = () => {
             <span className="logo">jochat</span>
             <span className="title">Login</span>
             <form>
-                <input type="text" placeholder="display name"/>
                 <input type="email" placeholder="email"/>
                 <input type="password" placeholder="password"/>
-                <input style={{display:"none"}} type="file" id="file"/>
-                <label htmlFor="file">
-                    <img src={Add} alt=""/>
-                    <span> Add Avatar </span>
-                </label>
-                <button>Sign up</button>
+                <button>Sign in</button>
             </form>
-            <p>You do have an account? Login</p>
+            <p>You dont have an account? Sign up</p>
         </div>
        
     </div>
