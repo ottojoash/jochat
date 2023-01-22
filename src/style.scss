@@ -4,4 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .formWrapper{
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
 }
