@@ -86,7 +86,13 @@
         .sidebar{
             flex: 1;
             border-radius: 1px  solid purple;
-            background-color: purple;            
+            background-color: purple;   
+            
+            .navbar{
+                display: flex;
+                align-items: center;
+                background-color: #2f2d52;
+            }
         }
         .chat{
             flex: 2;
